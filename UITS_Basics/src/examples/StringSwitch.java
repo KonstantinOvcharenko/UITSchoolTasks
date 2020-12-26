@@ -1,0 +1,26 @@
+package examples;
+
+public class StringSwitch {
+	public static void main(String[] args) {
+		String str = "two";
+
+		switch (str) {
+		case "zero":
+			System.out.println("zero");
+			break;
+		case "one":
+			System.out.println("one");
+			;
+			break;
+		case "two":
+			System.out.println("two");
+			;
+			break;
+		case "three":
+			System.out.println("three");
+			break;
+		default:
+			System.out.println("no match");
+		}
+	}
+}
